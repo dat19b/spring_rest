@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
 
+@JsonIgnoreProperties({"post", "id" })
 @Entity
 public class Comment {
 
